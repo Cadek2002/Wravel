@@ -4,7 +4,7 @@ from tweepy import API
 import pycountry as pyc
 
 # don't steal my token pls <3
-BEARER_TOKEN='AAAAAAAAAAAAAAAAAAAAAAQelQEAAAAAMokcw4TlgVwCmVlMdWDxTbAagOs%3DvIsC1frxjuFVZ9sktHxUYEp9ktTVVFIBCsaXWCDX0hD2x7jR7V'
+BEARER_TOKEN=''
 
 # get tweets
 client = tweepy.Client(bearer_token=BEARER_TOKEN)
